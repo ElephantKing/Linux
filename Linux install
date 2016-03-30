@@ -1,0 +1,28 @@
+首次安装，我所安装的软件及方式
+安装的软件
+     安装方式
+gcc
+sudo apt-get install gcc
+vim
+sudo apt-get install vim
+chrome点击软件中心下载
+codeblockssudo apt-get install codeblocksg++sudo apt-get install g++sublime3http://www.sublimetext.com/3   下载为deb文件，点击安装即可，还可以中终端启动：subl
+adoba flashplayer软件中心sougou
+http://jingyan.baidu.com/article/08b6a591cb06f114a8092209.html
+1.sudo apt-get remove ibus（可以不移除？）
+2.sudo apt-get install fcitx libssh2-1
+3.wget "http://pinyin.sogou.com/linux/download.php?f=linux&bit=64" -O "sougou_64.deb"
+sudo dpkg -i sougou_64.deb
+4.系统设置>语言支持>键盘输入方式系统>注销
+5.在安装搜狗输入法之前，注意先保证存在fcitx ，ibssh2-1软件包，否则安装会出错。
+sublime支持中文
+http://blog.csdn.net/cywosp/article/details/32350899
+快捷键：http://blog.csdn.net/cywosp/article/details/31791881
+
+
+
+
+
+
+
+
