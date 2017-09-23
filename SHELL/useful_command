@@ -1,0 +1,35 @@
+#############################################
+ls -Al
+ls -al
+ls -d */
+ls -Alrt
+#############################################
+ps aux
+ps -ef
+#############################################
+ss -aptln
+#############################################
+ldd program
+#############################################
+rsync -avzL --delete SRC DEST
+rsync -avzL --exclude=filename SRC DEST
+rsync -avzL --exclude-from=ignore-file SRC DEST
+rsync -avzL '-e ssh -p 22' username@ip:/dir/file local/
+rsync -avzL '-e ssh -p 22' username@ip:/dir/file/ local/
+
+rsync -a --delete /empty-folder /millions-files-folder
+#############################################
+date && sleep 0.1m && date
+date && sleep 0.1s && date
+date && sleep 0.1h && date
+date && sleep 0.1d && date
+#############################################
+date +"%Y~~%m~~%d    %H..%M..%S"
+date -s "2014-12-01 12:01:12"
+date -s "20141201 12:01:12"
+#############################################
+du -h --max-depth=1 file
+du -h --max-depth=1
+df -h
+df -h /dev/sda1
+#############################################

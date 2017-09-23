@@ -1,8 +1,15 @@
 #!/bin/bash
 git config --global alias.st status
+git config --global alias.gst "git status"
+
 git config --global alias.ci commit
+
 git config --global alias.co checkout
+git config --global alias.gco "git checkout"
+
 git config --global alias.br branch
+git config --global alias.gbr "git branch"
+
 git config --global color.ui true
 git config --global alias.s-log "log --pretty=oneline"
 git config --global alias.f-log "log --pretty=fuller"
