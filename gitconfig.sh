@@ -19,3 +19,4 @@ git config --global push.default simple
 git config --global user.name "ElephantKing"
 git config --global user.email "bupt_shufeng@163.com"
 
+cp ./.vimrc ~/ && cd && source .vimrc && cd -
